@@ -1,0 +1,58 @@
+.container {
+	margin: auto;
+	display: block;
+	border-radius: 10px;
+}
+body {
+	text-align: center;
+	background-color: #5D01CD;
+}
+input{
+	text-align: center;
+	font-family: garet light;
+	font-size: 18px;
+	font-weight: bolder;
+	border-radius: 20px;
+	border: 0;
+	margin-top: 5px;
+	margin-bottom: 12px;
+	color: #5D01CD;
+	height: 36px;
+}
+::placeholder{
+	color: #5D01CD;
+}
+img {
+	width: 100px;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+label {
+	font-family: agrandir;
+	font-weight: 900;
+	font-size: 18px;
+}
+label.input {
+	color: #FFEA46;
+}
+label.output {
+	color: #9FF4F0;
+}
+button {
+	font-family: agrandir;
+	font-size: 18px;
+	font-weight: 900;
+	color: #5D01CD;
+	border-radius: 5px;
+	padding: 10px;
+	border: 0;
+	cursor: pointer;
+}
+button.calculate {
+	background-color: #FFEA46;
+}
+button.clear {
+	background-color: #9FF4F0;
+}

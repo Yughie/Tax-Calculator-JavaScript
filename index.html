@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>KalTax - Online Tax Calculator</title>
+	<link rel="icon" type="	image/x-icon" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="animation.css">
+</head>
+<body>
+	<div class="container">
+		<a href="welcome.html"><img src="logo.png"></a>
+
+		<label for="income" class="input">Monthly Income</label> <br>
+		<input type='text' class='income input' id="monthlyIncome" placeholder='0.00'/> <br>
+
+		<label for="sssContribution" class="output">SSS Contribution</label> <br>
+		<input type='text' class='sssContribution output' id="sssContribution" placeholder='0.00' readonly /> <br>
+
+		<label for="philhealthContribution" class="output">PhilHealth Contribution</label> <br>
+		<input type='text' class='philhealthContribution' id="philhealthContribution" output' placeholder='0.00' readonly /> <br>
+
+		<label for="pagibigContribution" class="output">Pag-IBIG Contribution</label> <br>
+		<input type='text' class='pagibigContribution' id="pagibigContribution" output' placeholder='0.00' readonly /> <br>
+
+		<label for="totalContribution" class="output">Total Contribution</label> <br>
+		<input type='text' class='totalContribution output' id="totalContribution" placeholder='0.00' readonly /> <br>
+		
+		<label for="taxableIncome" class="output">Taxable Income</label> <br>
+		<input type='text' class='taxableIncome output' id="taxableIncome" placeholder='0.00' readonly /> <br>
+
+		<label for="incomeTax" class="output">Income Tax</label> <br>
+		<input type='text' class='incomeTax output' id="incomeTax" placeholder='0.00' readonly /> <br>
+
+		<label for="netPay" class="output">Net Pay</label> <br>
+		<input type='text' class='netPay output' id="netPay" placeholder='0.00' readonly /> <br>
+
+		<button class="calculate" id="calculateButton">Calculate</button>
+
+		<button class="clear" id="clearButton">Clear</button>
+		</div>
+
+		<script src="index.js">
+
+		</script>
+</body>
+</html>
